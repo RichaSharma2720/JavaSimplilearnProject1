@@ -68,7 +68,7 @@ public class BusinessOperation {
                     flag = false;
                     break;
             }
-            System.out.println("_______________________________________________");
+            System.out.println("______________________________________________");
         }
     }
 
