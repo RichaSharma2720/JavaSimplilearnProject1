@@ -34,7 +34,7 @@ public class FileCreationDeletion {
                     Flag = false;
                     break;
                 default:
-                    System.out.println("Invalied Value.............");
+                    System.out.println("Invalid Value.............");
             }
         }
     }
