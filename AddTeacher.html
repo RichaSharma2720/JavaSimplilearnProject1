@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<nav>
+<a href="ViewClassServlet">class</a>
+<a href='ViewStudentServlet'>Student</a>
+<a href="ViewTeacherServlet">Teacher</a>
+<a href="ViewSubjectServlet">Subject</a>
+<a href="Login.html">logout</a>
+</nav><br><br>
+<form action='AddTeacherServlet' method="post">
+<table>
+
+<tr>
+<td>
+Teacher Name:
+</td>
+<td><input type=text name=teach_name></td>
+</tr>
+
+<tr>
+<td>
+Teacher Contact Number :
+</td>
+<td> <input type=text name=teach_cont ></td>
+</tr>
+
+<tr>
+<td>
+Teacher Age :
+</td>
+<td> <input type=text name=teach_age >
+</td>
+</tr>
+
+
+<tr>
+
+<td>
+<input type=submit value= Add>
+</td>
+
+</tr>
+</table>
+</form>
+
+
+</body>
+</html>
